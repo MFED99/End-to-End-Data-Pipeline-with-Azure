@@ -15,3 +15,10 @@ Ce projet a pour objectif de créer une solution de traitement de données compl
 
 ## Architecture
 ![image](https://github.com/user-attachments/assets/6b310dae-9056-4e9b-a2c6-587912463414)
+
+L'architecture du projet se compose des éléments suivants :
+- **Azure Databricks :** Utilisé pour le traitement, la transformation et l’analyse des données. Il fournit un environnement collaboratif et interactif pour exécuter des tâches basées sur Spark.
+- **Azure Data Factory :** Gère et orchestre le flux de travail des données. Il est responsable de l'ingestion des données à partir de diverses sources, de la transformation des données et de la planification des tâches.
+- **Azure Storage :** Sert de lac de données pour stocker les données brutes et traitées. Il peut également héberger les résultats intermédiaires générés lors de l'analyse.
+- **Azure Data Lake Storage Gen2 :** Stocke les données nettoyées et transformées, les rendant accessibles pour la visualisation et les rapports.
+- **Azure Power BI :** Se connecte à la base de données Azure SQL pour créer des tableaux de bord interactifs et visuellement attrayants pour l'exploration des données.
