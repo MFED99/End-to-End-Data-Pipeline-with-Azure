@@ -1,2 +1,3 @@
-# De-l-ingestion-au-tableau-de-bord-une-cha-ne-de-valeur-des-donn-es-sur-Azure
-Ce projet consiste à créer une solution de bout en bout pour ingérer, transformer, analyser et visualiser des données SQL Server locales dans l'écosystème Azure (Data Factory, Data Lake, Databricks, Synapse, Power BI), tout en garantissant la sécurité et la gouvernance via Azure Active Directory et Key Vault.
+# Data Management and Analytics Solution with Azure
+
+💡 Ce projet vise à concevoir une solution complète pour l'intégration et le traitement des données. Les tables issues d'une base de données **SQL Server locale** sont d'abord ingérées à l'aide d'**Azure Data Factory**, puis stockées dans **Azure Data Lake**. Ensuite, **Azure Databricks** est utilisé pour transformer les données brutes en une forme propre et optimisée. Les données nettoyées sont ensuite chargées dans **Azure Synapse Analytics**. Enfin, **Microsoft Power BI** est intégré à **Azure Synapse Analytics** pour créer un tableau de bord interactif. Par ailleurs, **Azure Active Directory (AAD)** et **Azure Key Vault** sont utilisés pour assurer la gouvernance et la surveillance du projet.
