@@ -22,3 +22,31 @@ L'architecture du projet se compose des éléments suivants :
 - **Azure Storage :** Sert de lac de données pour stocker les données brutes et traitées. Il peut également héberger les résultats intermédiaires générés lors de l'analyse.
 - **Azure Data Lake Storage Gen2 :** Stocke les données nettoyées et transformées, les rendant accessibles pour la visualisation et les rapports.
 - **Azure Power BI :** Se connecte à la base de données Azure SQL pour créer des tableaux de bord interactifs et visuellement attrayants pour l'exploration des données.
+
+## Technologies utilisées:
+- Azure Databricks
+- Azure Data Factory
+- Azure Data Lake Storage
+- Azure Synapse Analytics
+- Azure Power BI
+- Azure Key Vault
+- Azure Active Directory
+- Microsoft SQL Server
+- PySpark
+- SQL
+
+![image](https://github.com/user-attachments/assets/6c69111e-d745-49af-969f-b601aab49ea3)
+
+## Ingestion des données:
+
+![image](https://github.com/user-attachments/assets/9d5e0149-29a8-4f19-bb5d-7938533435d1)
+
+## Traitement des données: 
+
+![image](https://github.com/user-attachments/assets/9386ae1f-254a-419a-a136-d0da0748f34b)
+
+L'étape de traitement des données consiste à nettoyer et transformer les données brutes en un format structuré adapté à l'analyse. Cette étape tire parti des capacités de calcul distribué d'Azure Databricks pour un traitement efficace.
+
+## Conclusion:
+
+🚀 Le projet d'analyse des données sur Azure montre comment exploiter les services Azure pour traiter, analyser et visualiser des données à grande échelle. En suivant les configurations et les guides fournis dans ce dépôt, vous pouvez adapter le projet à d'autres domaines et étendre ses fonctionnalités. Bonne analyse des données !
